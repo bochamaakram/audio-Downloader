@@ -24,6 +24,16 @@ h1 {
               0 0 0 1px rgba(187, 134, 252, 0.1);
   border: 1px solid #333;
 }
+.containerh {
+  max-width: 600px;
+  display: flex;
+  margin: 0 auto;
+  background: #1e1e1e;
+  padding: 30px;
+  justify-content: center;
+  flex-direction: row;
+  gap: 10px;
+}
 
 .input-group {
   display: flex;
@@ -221,4 +231,45 @@ h1 {
   h1 {
     font-size: 24px;
   }
+}/* From Uiverse.io by vinodjangid07 */ 
+.Btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 45px;
+  height: 45px;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition-duration: 0.3s;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+  background-color: rgba(187, 134, 252, 0.4);
+}
+
+.sign {
+  width: 100%;
+  transition-duration: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign svg {
+  width: 17px;
+}
+
+.sign svg path {
+  fill: white;
+}
+
+.Btn:hover .sign {
+  transform: scale(1.2);
+  transition-duration: 0.3s;
+}
+
+/* button click effect */
+.Btn:active {
+  transform: translate(2px, 2px);
 }
